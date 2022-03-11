@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 from cvzone.HandTrackingModule import HandDetector
 
-print('Starting cam')
+print('Starting...')
 #cap = cv2.VideoCapture(0)
 # 0 -> internal cam, 1 -> external cam
 # cv2.CAP_DSHOW as input, if not it is really slow
