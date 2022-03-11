@@ -7,12 +7,17 @@ from cvzone.HandTrackingModule import HandDetector
 
 print('Starting cam')
 #cap = cv2.VideoCapture(0)
+# 0 -> internal cam, 1 -> external cam
+# cv2.CAP_DSHOW as input, if not it is really slow
 cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
 
 print("Found cam")
+
+#original resolution
 #cap.set(3, 1280)
 #cap.set(4, 720)
 
+# cam resolution
 cap.set(3, 1920)
 cap.set(4, 1080)
 
